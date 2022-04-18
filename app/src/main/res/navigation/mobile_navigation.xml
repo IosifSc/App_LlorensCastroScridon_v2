@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_domicilio">
+
+    <fragment
+        android:id="@+id/navigation_domicilio"
+        android:name="com.example.app_llorenscastroscridon.ui.Domicilio.DomicilioFragment"
+        android:label="@string/title_local"
+        tools:layout="@layout/fragment_domicilio" />
+
+    <fragment
+        android:id="@+id/navigation_local"
+        android:name="com.example.app_llorenscastroscridon.ui.Local.LocalFragment"
+        android:label="@string/title_local"
+        tools:layout="@layout/fragment_local" />
+
+    <fragment
+        android:id="@+id/navigation_ajustes"
+        android:name="com.example.app_llorenscastroscridon.ui.Ajustes.AjustesFragment"
+        android:label="@string/title_ajustes"
+        tools:layout="@layout/fragment_ajustes" />
+</navigation>

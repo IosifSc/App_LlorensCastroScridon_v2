@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">App_LlorensCastroScridon</string>
+    <string name="title_domicilio">Domicilio</string>
+    <string name="title_local">Local</string>
+    <string name="title_ajustes">Ajustes</string>
+</resources>
